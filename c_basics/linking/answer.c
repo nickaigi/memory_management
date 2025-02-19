@@ -1,5 +1,5 @@
 #include "answer.h"
 
 int answer(){
-	return 1337;
+  return 1337;
 }
