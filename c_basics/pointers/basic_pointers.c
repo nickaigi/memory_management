@@ -2,8 +2,7 @@
 
 void printAge(int *);
 
-int main()
-{
+int main(int argc, char **agrv){
   int age = 21;
   int *pAge = &age;
 
@@ -21,7 +20,6 @@ int main()
   return 0;
 }
 
-void printAge(int *pAge)
-{
+void printAge(int *pAge){
   printf("You are %d years old\n", *pAge);
 }
