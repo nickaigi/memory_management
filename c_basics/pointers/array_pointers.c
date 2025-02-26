@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main(int argc, char **argv){
   char *name = "nickson";
   int v[5] = {1, 2, 3, 4, 5};
   int *pV = &v;
