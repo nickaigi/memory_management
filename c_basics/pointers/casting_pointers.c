@@ -1,6 +1,8 @@
 /*
 * demostrates dereferencing a pointer and casting it to another type
 * The pointer type tells the compiler how to interpret the memory at that address
+*
+* think of it as telling the variable: "now you are going to play the role of a ..."
 */
 #include <stdio.h>
 
