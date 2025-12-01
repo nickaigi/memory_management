@@ -4,7 +4,11 @@
 int gcd(int, int);
 
 int main(){
-  int x = 20, y = 35;
+  int x, y;
+  printf("Enter the first number: ");
+  scanf("%d", &x);
+  printf("Enter the second number: ");
+  scanf("%d", &y);
   printf("The GCD of %d and %d = %d\n", x, y, gcd(x, y));
   return 0;
 }
